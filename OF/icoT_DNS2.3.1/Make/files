@@ -1,0 +1,3 @@
+icoT_DNS.C
+
+EXE = $(FOAM_APPBIN)/icoT_DNS
