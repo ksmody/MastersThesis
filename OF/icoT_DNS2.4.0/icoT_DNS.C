@@ -78,6 +78,7 @@ int main(int argc, char *argv[])
         {
             volScalarField rAU(1.0/UEqn.A());
 
+// Adjusted from OFv2.3.1 for v2.4.0
             U = rAU*UEqn.H();
             phi = (fvc::interpolate(U) & mesh.Sf())
 //                + fvc::ddtPhiCorr(rAU, U, phi);
