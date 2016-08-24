@@ -1,6 +1,6 @@
 #! /usr/bin/env python
 """
-This module provides some functions to automate at your disposal!
+This module provides some functions that can be used for pre- and post-processing of OpenFOAM data among other stuff
 """
 import math
 import os
