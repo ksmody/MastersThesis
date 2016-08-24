@@ -16,8 +16,10 @@ FoamFile
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 //Parametrized Orifice Geometry
+
 //Run using:
 //m4 -P blockMeshDict.m4 > blockMeshDict
+
 //m4 definitions:
 m4_changecom(//)m4_changequote([,])
 m4_define(calc, [m4_esyscmd(perl -e 'use Math::Trig; printf ($1)')])
