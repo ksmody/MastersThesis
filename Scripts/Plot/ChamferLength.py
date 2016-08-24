@@ -4,7 +4,7 @@ Created on Tue 28.07.2015 11:04:55
 
 @author: modyk
 
-Pressure Drop
+Post-processing with Matplotlib
 
 """
 
