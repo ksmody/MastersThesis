@@ -81,6 +81,7 @@ int main(int argc, char *argv[])
             U = rAU*UEqn.H();
             phi = (fvc::interpolate(U) & mesh.Sf())
 //                + fvc::ddtPhiCorr(rAU, U, phi);
+// Modified solver to correspond to the original code
               + fvc::interpolate(rAU)*fvc::ddtCorr(U, phi);
 
             adjustPhi(phi, U, p);
