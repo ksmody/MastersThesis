@@ -4,7 +4,7 @@ Created on Tue Aug 18 15:48:22 2015
 
 @author:modyk
 
-Run Simulation
+Run Simulation Script
 
 """
 
