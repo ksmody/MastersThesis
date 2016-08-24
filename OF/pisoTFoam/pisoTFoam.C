@@ -55,6 +55,7 @@ int main(int argc, char *argv[])
     {
         Info<< "Time = " << runTime.timeName() << nl << endl;
 
+	// Introducing the time-step parameters for control
         #include "readPISOControls.H"
         #include "CourantNo.H"
 	#include "setDeltaT.H"
