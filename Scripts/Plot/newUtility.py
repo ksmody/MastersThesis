@@ -1,6 +1,6 @@
 #! /usr/bin/env python
 """
-This module provides some functions to automate at your disposal!
+This python script enables initialization for OpenFOAM simulations including some other features
 """
 import math
 import os
