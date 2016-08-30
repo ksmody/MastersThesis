@@ -1,0 +1,6 @@
+all: Run
+
+Run: Shape.cpp 
+	g++ -o Run  Shape.cpp 
+clean: 
+	rm Run

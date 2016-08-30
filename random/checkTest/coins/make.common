@@ -1,0 +1,7 @@
+all: Run
+
+Run: coin.cpp  
+	g++ -o  Run  coin.cpp 
+
+clean: 
+	rm Run

@@ -1,0 +1,7 @@
+all: Run
+
+Run: num_seq.cpp  
+	g++ -o Run  num_seq.cpp 
+
+clean: 
+	rm Run
