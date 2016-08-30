@@ -73,5 +73,5 @@ def select_editor():
         print "Press <Ctrl + C> to quit.\n"
         return select_editor()
 
-#select_editor()
-os.system(os.environ["EDITOR"] + "%s" title)
+select_editor()
+#os.system(os.environ["EDITOR"] + "%s" title)
